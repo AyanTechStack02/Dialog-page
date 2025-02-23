@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Dialog box in tailwind css</title>
+</head>
+
+<body>
+    <div class="bg-gray-400 fixed inset-0"></div>
+    <div class="fixed inset-0">
+        <div class="flex justify-center items-center h-full">
+            <div class="bg-white w-[512px] text-left relative rounded flex shadow-xl">
+                <div class="">
+                    <div class="flex items-start p-5">
+                        <img class="w-8 mt-2"
+                            src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSPJEC7SUtFRV7EWbQINs35Rl4bfXj5ESJ36g&s"
+                            alt="">
+                        <div class="ml-4 text-lg">
+                            <h3 class="font-semibold">Deactivate account</h3>
+                            <p class="text-gray-600">Are you sure you to deactive you account? All of your data will be
+                                paramently removed. This action cannot be uncome.</p>
+                        </div>
+                    </div>
+                    <div class="bg-gray-100 px-3 py-3 flex flex-row-reverse">
+                        <button class="font-semibold rounded-md text-white bg-red-500 px-5 py-2 ml-3 hover:bg-red-400 ">Deactivate</button>
+                        <button class="rounded-md px-5 hover:bg-gray-50 border font-semiboldborder-gray-300">Cancel</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+<script src="https://unpkg.com/@tailwindcss/browser@4"></script>
+
+</html>
